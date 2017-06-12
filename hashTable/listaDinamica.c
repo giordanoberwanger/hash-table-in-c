@@ -1,3 +1,10 @@
+/*
+ ============================================================================
+ Arquivo     : Lista Din√¢mica Duplamente Encadeada (.c)
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -152,7 +159,7 @@ int Exclui_NoLi (t_lista *Lista, int* valor)
     {
         if(*aux->val == *valor)
         {
-            if(Lista->qtde > 1 && !aux->Prox && aux->Ant) ///tem mais de um elemento e ele È o ultimo
+            if(Lista->qtde > 1 && !aux->Prox && aux->Ant) ///tem mais de um elemento e ele √© o ultimo
             {
                 Lista->fim = aux->Ant;
                 aux->Ant->Prox = NULL;
@@ -161,7 +168,7 @@ int Exclui_NoLi (t_lista *Lista, int* valor)
                 return 1;
             }
 
-            if(Lista->qtde > 1 && aux->Prox && aux->Ant) ///tem mais de um elemento e ele n„o È o ultimo
+            if(Lista->qtde > 1 && aux->Prox && aux->Ant) ///tem mais de um elemento e ele n√£o √© o ultimo
             {
                 aux->Ant->Prox = aux->Prox;
                 aux->Prox->Ant = aux->Ant;
@@ -170,7 +177,7 @@ int Exclui_NoLi (t_lista *Lista, int* valor)
                 return 1;
             }
 
-            if(Lista->qtde > 1 && !aux->Ant && aux->Prox) ///tem mais de um elemento e ele È o primeiro
+            if(Lista->qtde > 1 && !aux->Ant && aux->Prox) ///tem mais de um elemento e ele √© o primeiro
             {
                 Lista->inicio = aux->Prox;
                 aux->Prox->Ant = NULL;
@@ -179,7 +186,7 @@ int Exclui_NoLi (t_lista *Lista, int* valor)
                 return 1;
             }
 
-            if(Lista->qtde == 1 && !aux->Prox && !aux->Ant) ///tem um elemento e
+            if(Lista->qtde == 1 && !aux->Prox && !aux->Ant) ///tem um elemento e ele e o primeiro
             {
                 Lista->inicio = NULL;
                 Lista->fim = NULL;
