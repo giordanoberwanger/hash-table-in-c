@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1497263174 source:c:\users\aluno\desktop\hashtable\hashtable.c
+	<stdlib.h>
+	<stdio.h>
+	"hashTable.h"
+
+1497263249 source:c:\users\aluno\desktop\hashtable\listadinamica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<math.h>
+	"listaDinamica.h"
+	"uInteiro.h"
+
+1497263174 c:\users\aluno\desktop\hashtable\listadinamica.h
+
+1497263174 c:\users\aluno\desktop\hashtable\uinteiro.h
+
+1497263391 source:c:\users\aluno\desktop\hashtable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listaDinamica.h"
+	"hashTable.h"
+
+1497263174 c:\users\aluno\desktop\hashtable\hashtable.h
+
+1497263174 source:c:\users\aluno\desktop\hashtable\uinteiro.c
+	<stdio.h>
+	<stdlib.h>
+
