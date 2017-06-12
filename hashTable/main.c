@@ -1,3 +1,10 @@
+/*
+ ============================================================================
+ Arquivo     : Tabela Hash (main.c)
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
