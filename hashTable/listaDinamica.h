@@ -1,3 +1,10 @@
+/*
+ ============================================================================
+ Arquivo     : Lista Dinâmica Duplamente Encadeada (.h)
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
 typedef struct nodeL
 {
     int *val;
