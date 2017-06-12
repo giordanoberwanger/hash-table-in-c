@@ -1,3 +1,10 @@
+/*
+ ============================================================================
+ Arquivo     : Biblioteca Auxiliar para Inteiros (.c)
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
